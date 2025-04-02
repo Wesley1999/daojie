@@ -9,8 +9,8 @@ declare module '@vue/runtime-core' {
     ElConfigProvider: typeof import('element-plus/es')['ElConfigProvider']
     ElDatePicker: typeof import('element-plus/es')['ElDatePicker']
     ElInputNumber: typeof import('element-plus/es')['ElInputNumber']
-    Page1: typeof import('./views/Page1.vue')['default']
-    Page2: typeof import('./views/Page2.vue')['default']
+    Page1: typeof import('./views/P4财报分析.vue')['default']
+    Page2: typeof import('./views/P2选股模块.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

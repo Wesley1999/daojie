@@ -1,4 +1,4 @@
-Date.prototype.format = function(fmt='yyyy/MM/dd hh:mm:ss.S') {
+Date.prototype.format = function(fmt='yyyy-MM-dd hh:mm:ss.S') {
     if (isNaN(this.getTime())) {
         return '';
     }
